@@ -1,0 +1,369 @@
+@media ( max-width: 1200px)
+	.menu 
+		.menu_item 
+			padding-right: 19px
+		.menu_link 
+			font-size: 13px
+		.subheader 
+			.text_number
+				margin-top: 22px
+				font-size: 11px
+			.subheader_number 
+				font-size: 18px
+	.promo
+		.promo_header
+			font-size: 55px
+		.promo_subheader 
+			font-size: 35px
+	.reasons
+		.reasons_block
+			align-items: flex-start
+			.reasons_descr
+				width: 300px
+	.mobile
+		&_item
+			width: 305px
+	.footer 
+		.appShop_link
+			// display: inline
+			width: 293px
+			top: 110px
+			right: 13px
+		.label_footer
+			margin-left: -25px
+@media (max-width: 991px)
+	.menu
+		.menu_item 
+			padding-right: 10px
+		.menu_link 
+			font-size: 10px
+	.subheader 
+		&_logo
+			img
+				width: 100%
+		&_official
+			font-size: 11px
+		&_number
+			font-size: 20px
+		&_btn
+			margin-top: 21px
+			width: 100%
+			height: 40px
+			
+	.promo
+		.promo_header
+			font-size: 41px
+		.promo_subheader
+			font-size: 26px
+	.reasons
+		.title
+			font-size: 37px
+		.reasons_block
+			flex-direction: column
+			text-align: center
+			align-items: center
+		.reasons_descr
+			margin-top: 20px
+	
+	.mobile
+		.subtitle
+			font-size: 14px
+		.mobile_item
+			width: 231px
+			height: 250px
+	.choise
+		.choise_img
+			width: 670px
+	.require
+		.require_list
+			font-size: 16px
+			line-height: 18
+	.footer
+		.line
+			width: 233px
+		.label_footer
+			margin-left: 14px
+			width: 336px
+		.title_footer
+			width: 373px
+			margin-left: 50px
+		.network
+			width: 136px
+			margin: 130px 42% 0
+		.appShop_link
+			// position: absolute
+			margin: 90px 30.5% 0			
+		.subtitle_footer
+			width: 55px
+			margin: 26px 48% 0
+			
+@media ( max-width:767px )
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 25px
+		background-color: rgba(0, 0, 0, .8)
+		transition: 0.6s all
+		&_active
+			left: 0
+		.menu_item
+			padding-right: 0
+			border: none
+			margin: 10px
+		.menu_link
+			font-size: 17px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+					left: 5px
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_number
+			display: block
+			margin-top: 15px
+			color: #ffffff
+			font-size: 16px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		&_btn
+			display: block
+			width: 200px
+			height: 40px
+			margin: 0 auto
+			margin-top: 10px
+	.promo
+		.promo_header
+			line-height: 45px
+	.choise
+		.choise_img
+			width: 510px
+	.footer
+		row 
+		div
+			margin: 0 auto
+		.label_footer
+			margin: 7px -13% 0
+			width: 300px
+			a 
+				font-size: 12px		
+		.title_footer
+			width: 347px
+			margin: 2px 15.5% 0
+		.subtitle_footer 
+			margin: 26px 47% 0
+		.network
+			margin: 128px 40% 0
+		.appShop_link
+			margin: 85px 22.5% 0
+@media ( max-width:575px )
+	.menu
+		width: 85%
+		&_item 
+			width: 100%
+			text-align: center
+			padding: 5px 0
+		&_link
+			display: block
+	.subheader
+		height: 60px
+		&_official
+			display: none
+		&_logo
+			margin-top: 16px	
+		&_number
+			font-size: 12px	
+			font-weight: 400
+			text-transform: uppercase
+			margin-top: 11px
+		&_btn
+			width: 110px
+			height: 22px
+			margin-top: 6px
+			font-size: 10px
+	.promo
+		min-height: 400px
+		padding: 93px 0 35px 0
+		&_descr
+			display: none
+		.promo_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 35px
+		.promo_subheader
+			font-size: 20px
+			margin-top: 33px
+			padding: 0 10px
+			line-height: 30px
+		.promo_btn
+			width: 210px
+			height: 50px
+			margin-top: 72px
+	.reasons
+		.label
+			margin-top: 0
+		.title
+			font-size: 15px
+			margin-top: 15px
+		.reasons_block
+			margin-top: 25px
+	.mobile
+		padding: 24px  0 44px 0
+		.title
+			font-size: 17px
+			margin-top: 15px
+		.subtitle
+			margin-top: 11px
+		.mobile_item
+			margin-top: 27px
+		.mobile_item_plus
+			bottom: 23px
+	.choise
+		min-height: 420px
+		padding: 25px 0 33px 0
+		background: none
+		.black
+			height: 420px
+			z-index: 0
+		.title
+			display: none
+		.subtitle
+			display: none
+		.choise_img
+			display: block
+			transform: translateX(-14px)
+			width: 300px
+		.choise_descr
+			position: absolute
+			display: block
+			margin: 23px 0 33px 24px
+			width: 249px;
+			height: 60px;
+			color: #ffffff;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 24px;
+	.require
+		padding: 33px 0 26px 0
+		.label
+			padding: 5px 0 14px 0
+			text-align: center
+		.title
+			margin-top: 15px
+			font-size: 16px
+		.require_list
+			padding-left: 33px
+		.require_title
+			margin-top: -20px
+			font-size: 17px
+		.require_list
+			li	
+				margin-top: 5px
+				font-size: 14px		
+	.map
+		height: 360px
+		padding: 25px 0 30px 0
+		.label
+			width: 76px;
+			height: 24px;
+		.title
+			margin-top: 15px
+			font-size: 16px
+			font-weight: 700
+		.subtitle
+			margin-top: 10px
+			font-size: 16px	
+		.cityes
+			height: 240px
+	.footer
+		.line
+			width: 186px
+			height: 2px
+			margin: 20px auto 0
+		
+		.label_footer_mobile
+			width: 210px;
+			height: 11px
+			display: block
+			margin: 20px auto 0
+			a 
+				font-size: 11px
+		.title_footer
+			position: relative
+			height: 31px
+			width: 244px
+			margin: 31px auto 0
+			.title_footer_one 
+				font-size: 11px
+				position: absolute
+			.title_footer_two 
+				font-size: 11px
+				position: absolute
+				right: 1px
+			.title_footer_three
+				font-size: 11px
+				position: absolute
+				bottom: 1px
+			.title_footer_four 
+				font-size: 11px
+				position: absolute
+				bottom: 1px
+				right: 80px
+			.title_footer_five
+				font-size: 11px
+				position: absolute
+				bottom: 1px
+				right: 1px
+		.appShop_link
+			width: 300px
+			margin: 100px auto 0
+			display: block
+			position: static
+			img 
+				width: 97px
+		.network
+			width: 152px
+			margin: 30px auto 0
+		.subtitle_footer
+			margin: 25px 42% 0
+	
+	.overlay 
+
+		.modal_form 
+			width: 369px
+			.modal_close 
+				right: 18px
+				top: 20px
+			button 
+				width: 194px
+				height: 35px

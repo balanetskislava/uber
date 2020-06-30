@@ -14,12 +14,12 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'balanetski85555@gmail.com';                 // Наш логин
-$mail->Password = 'cristina2000eva';                           // Наш пароль от ящика
+$mail->Password = 'matas2000eva';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('balanetski85555@gmail.com', 'Pulse');   // От кого письмо 
-$mail->addAddress('patoci2713@officemalaga.com');     // Add a recipient
+$mail->addAddress('kamom52628@aqumail.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
